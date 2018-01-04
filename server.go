@@ -67,7 +67,7 @@ func main() {
 		Build = "devdevdevdevdevdevdev"
 	}
 	// Bing flags for changing parameters of FIND
-	flag.StringVar(&RuntimeArgs.Port, "p", ":8003", "port to bind")
+	flag.StringVar(&RuntimeArgs.Port, "p", ":13392", "port to bind")
 	flag.StringVar(&RuntimeArgs.Socket, "s", "", "unix socket")
 	flag.StringVar(&RuntimeArgs.ServerCRT, "crt", "", "location of ssl crt")
 	flag.StringVar(&RuntimeArgs.ServerKey, "key", "", "location of ssl key")
