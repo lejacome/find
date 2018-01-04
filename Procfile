@@ -1,1 +1,1 @@
-web: find -p $PORT
+web: find -p
