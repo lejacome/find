@@ -1,1 +1,1 @@
-web: find -p
+web: find
